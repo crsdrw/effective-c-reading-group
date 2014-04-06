@@ -5,7 +5,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="MoveProblem.cpp" />
     <ClCompile Include="stdafx.cpp" />
-    <ClCompile Include="MoveSolution.cpp" />
   </ItemGroup>
 </Project>

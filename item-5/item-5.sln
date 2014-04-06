@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "item-5", "item-5\item-5.vcxproj", "{93721347-6D0F-496B-8F6B-01A9457AD946}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MoveSolution", "item-5\item-5.vcxproj", "{93721347-6D0F-496B-8F6B-01A9457AD946}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MoveProblem", "MoveProblem\MoveProblem.vcxproj", "{6B4BAA73-E140-41DE-AFDF-FB9F13F01D55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{93721347-6D0F-496B-8F6B-01A9457AD946}.Debug|Win32.Build.0 = Debug|Win32
 		{93721347-6D0F-496B-8F6B-01A9457AD946}.Release|Win32.ActiveCfg = Release|Win32
 		{93721347-6D0F-496B-8F6B-01A9457AD946}.Release|Win32.Build.0 = Release|Win32
+		{6B4BAA73-E140-41DE-AFDF-FB9F13F01D55}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6B4BAA73-E140-41DE-AFDF-FB9F13F01D55}.Debug|Win32.Build.0 = Debug|Win32
+		{6B4BAA73-E140-41DE-AFDF-FB9F13F01D55}.Release|Win32.ActiveCfg = Release|Win32
+		{6B4BAA73-E140-41DE-AFDF-FB9F13F01D55}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

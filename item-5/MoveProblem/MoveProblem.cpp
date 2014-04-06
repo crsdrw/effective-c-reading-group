@@ -1,4 +1,4 @@
-// item-5.cpp : Visual Studio 2012 does not define default move constructor, the solution.
+// Visual Studio 2012 does not define a default move constructor. The problem.
 //
 
 #include "stdafx.h"
@@ -14,13 +14,10 @@ struct Vector {
 struct DataWrapper {
   Vector data_; // imagine this is std::vector<float>, using Vector to print behaviour
   DataWrapper(Vector&& data) : data_(std::move(data)) { }
-  DataWrapper(DataWrapper&& in) : data_(std::move(in.data_)) { }
 };
 
-int _tmain(int argc, _TCHAR* argv[])
-{
+int _tmain() {
   Vector data;
   DataWrapper dataWrapper(std::move(data));
   DataWrapper anotherDataWrapper(std::move(dataWrapper));
 }
-

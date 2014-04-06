@@ -11,10 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{93721347-6D0F-496B-8F6B-01A9457AD946}</ProjectGuid>
+    <ProjectGuid>{6B4BAA73-E140-41DE-AFDF-FB9F13F01D55}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>item5</RootNamespace>
-    <ProjectName>MoveSolution</ProjectName>
+    <RootNamespace>MoveProblem</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -81,7 +80,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MoveSolution.cpp" />
+    <ClCompile Include="MoveProblem.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
