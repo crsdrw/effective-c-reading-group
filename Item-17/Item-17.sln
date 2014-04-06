@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExceptionSafeMakeShared", "ExceptionSafeMakeShared\ExceptionSafeMakeShared.vcxproj", "{1773C117-4BA4-44C9-BEE7-D3D7F6E0F051}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1773C117-4BA4-44C9-BEE7-D3D7F6E0F051}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1773C117-4BA4-44C9-BEE7-D3D7F6E0F051}.Debug|Win32.Build.0 = Debug|Win32
+		{1773C117-4BA4-44C9-BEE7-D3D7F6E0F051}.Release|Win32.ActiveCfg = Release|Win32
+		{1773C117-4BA4-44C9-BEE7-D3D7F6E0F051}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
