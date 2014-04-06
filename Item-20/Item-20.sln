@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PreferPassByReference", "PreferPassByValue\PreferPassByValue.vcxproj", "{5018F7FA-0714-410E-BBA3-8128639E38F9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PreferBassByReferenceTheExceptionToTheRule", "PreferBassByValueTheExceptionToTheRule\PreferBassByValueTheExceptionToTheRule.vcxproj", "{34C23891-FCE6-43D4-ADF0-9B45EB5B9F13}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cpp11PassByValue", "Cpp11PassByValue\Cpp11PassByValue.vcxproj", "{79F11AED-EC53-4E95-B35C-C398B0682B82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5018F7FA-0714-410E-BBA3-8128639E38F9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5018F7FA-0714-410E-BBA3-8128639E38F9}.Debug|Win32.Build.0 = Debug|Win32
+		{5018F7FA-0714-410E-BBA3-8128639E38F9}.Release|Win32.ActiveCfg = Release|Win32
+		{5018F7FA-0714-410E-BBA3-8128639E38F9}.Release|Win32.Build.0 = Release|Win32
+		{34C23891-FCE6-43D4-ADF0-9B45EB5B9F13}.Debug|Win32.ActiveCfg = Debug|Win32
+		{34C23891-FCE6-43D4-ADF0-9B45EB5B9F13}.Debug|Win32.Build.0 = Debug|Win32
+		{34C23891-FCE6-43D4-ADF0-9B45EB5B9F13}.Release|Win32.ActiveCfg = Release|Win32
+		{34C23891-FCE6-43D4-ADF0-9B45EB5B9F13}.Release|Win32.Build.0 = Release|Win32
+		{79F11AED-EC53-4E95-B35C-C398B0682B82}.Debug|Win32.ActiveCfg = Debug|Win32
+		{79F11AED-EC53-4E95-B35C-C398B0682B82}.Debug|Win32.Build.0 = Debug|Win32
+		{79F11AED-EC53-4E95-B35C-C398B0682B82}.Release|Win32.ActiveCfg = Release|Win32
+		{79F11AED-EC53-4E95-B35C-C398B0682B82}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
