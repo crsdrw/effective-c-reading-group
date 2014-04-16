@@ -18,6 +18,7 @@ My C++ Checklists
  14. What guarantees should the class make in terms of exception safety? (Item 29)
  15. Should the class be a class template? (Item 19)
  16. Does the class need a non-throwing `swap` (Item 25)
+ 17. Should the class implementation be hidden using pimpl idom or an interface? (Item 31)
 
 ### New Function Checklist ###
  1. Should it be `const`? (Item 3)
@@ -28,7 +29,8 @@ My C++ Checklists
  6. Can it be a non-member non-friend function? (Item 23)
  7. If type conversions should apply to all parameters is it a non-member function? (Item 24)
  8. Are all variable definitions postponed for as long as possible? (Item 26)
- 9. What guarantees does this function offer in terms of exception safety? (Item 29)
+ 9. Are you returning any handles to internal objects? (Item 28)
+ 10. What guarantees does this function offer in terms of exception safety? (Item 29)
  
 ### Constructor Checklist ###
 1. Do you call any `virtual` functions?
