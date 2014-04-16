@@ -3,7 +3,7 @@ My C++ Checklists
 
 ### New Class Checklist ###
  1. Do you need this class?
- 2. Have you abided by the [rule of three (rule of five)][1]?
+ 2. Have you abided by the [_rule of three_ (rule of five)][1]?
  3. Are there any compiler generated functions that should be disallowed? (Item 6)
  4. Are all resources managed by objects? (Item 13)
  5. Are all data members declared `private`? (Item 22)
@@ -18,7 +18,7 @@ My C++ Checklists
  14. What guarantees should the class make in terms of exception safety? (Item 29)
  15. Should the class be a class template? (Item 19)
  16. Does the class need a non-throwing `swap` (Item 25)
- 17. Should the class implementation be hidden using pimpl idom or an interface? (Item 31)
+ 17. Should the class implementation be hidden using _pimpl idom_ or an interface? (Item 31)
 
 ### New Function Checklist ###
  1. Should it be `const`? (Item 3)
